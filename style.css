@@ -1,0 +1,45 @@
+
+body {
+    background-color: #ffeef7; /* Rosa claro */
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff6d1; /* Amarelo claro */
+    padding: 20px;
+    border-radius: 20px; /* Bordas arredondadas */
+    max-width: 720px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    max-width: 100%;
+    border-radius: 12px; /* Bordas arredondadas na imagem */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #ff69b4; /* Rosa mais vibrante */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.card {
+    background-color: #fff6d1; /* mesmo amarelo do container */
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 720px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
